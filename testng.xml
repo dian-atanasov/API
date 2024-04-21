@@ -4,7 +4,7 @@
 <parameter name="userId" value="4"></parameter>
   <test thread-count="0" name="Test">
     <classes>
-      <class name="practice.Tests_GET1"/>
+      <class name="practice.TestExamples"/>
     </classes>
   </test> 
 </suite>
