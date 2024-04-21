@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class Tests_GET {
 	
-	//@Test
+	@Test
 	public void test_1() {
 		
 		given()
@@ -29,7 +29,7 @@ public class Tests_GET {
 			.log().all();
 	}
 	
-	@Test
+	//@Test
 	public void test_3() {
 		
 		given()
