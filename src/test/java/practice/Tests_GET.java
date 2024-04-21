@@ -14,7 +14,7 @@ public class Tests_GET {
 			.get("https://reqres.in/api/users?page=2")
 		.then()
 			.statusCode(200)
-			.body("data.id[0]", equalTo(7));
+			.body("data.id[0]", equalTo(6));
 	}
 
 	
