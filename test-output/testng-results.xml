@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-22T22:28:01 EEST" name="Default suite" finished-at="2024-04-22T22:28:05 EEST" duration-ms="3975">
+  <suite started-at="2024-04-25T19:19:07Z" name="Default suite" finished-at="2024-04-25T19:19:12Z" duration-ms="4394">
     <groups>
     </groups>
-    <test started-at="2024-04-22T22:28:01 EEST" name="Default test" finished-at="2024-04-22T22:28:05 EEST" duration-ms="3975">
-      <class name="practice.SoapXMLRequest">
-        <test-method signature="validateSoapXML()[pri:0, instance:practice.SoapXMLRequest@34f7cfd9]" started-at="2024-04-22T22:28:01 EEST" name="validateSoapXML" finished-at="2024-04-22T22:28:05 EEST" duration-ms="3906" status="PASS">
+    <test started-at="2024-04-25T19:19:07Z" name="Default test" finished-at="2024-04-25T19:19:12Z" duration-ms="4394">
+      <class name="practice.ExtendReportsBasicDemo">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:practice.ExtendReportsBasicDemo@49ff7d8c]" started-at="2024-04-25T19:19:07Z" name="setUp" finished-at="2024-04-25T19:19:07Z" duration-ms="229" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateSoapXML -->
-      </class> <!-- practice.SoapXMLRequest -->
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:practice.ExtendReportsBasicDemo@49ff7d8c]" started-at="2024-04-25T19:19:07Z" name="setUpTest" finished-at="2024-04-25T19:19:09Z" duration-ms="1245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="test1()[pri:0, instance:practice.ExtendReportsBasicDemo@49ff7d8c]" started-at="2024-04-25T19:19:09Z" name="test1" finished-at="2024-04-25T19:19:11Z" duration-ms="2464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:practice.ExtendReportsBasicDemo@49ff7d8c]" started-at="2024-04-25T19:19:11Z" name="test2" finished-at="2024-04-25T19:19:11Z" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="setClean()[pri:0, instance:practice.ExtendReportsBasicDemo@49ff7d8c]" started-at="2024-04-25T19:19:11Z" name="setClean" finished-at="2024-04-25T19:19:12Z" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setClean -->
+      </class> <!-- practice.ExtendReportsBasicDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
