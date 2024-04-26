@@ -85,7 +85,7 @@ public class ExtendReportsBasicDemo {
 	}
 	
 	@AfterTest
-	public void setClean() {
+	public void tearDown() {
 	    driver.close();
 	    extent.flush();
 	}
